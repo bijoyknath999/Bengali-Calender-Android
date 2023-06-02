@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activity.MainActivity"
+    android:background="@drawable/gradient_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/home_current_month"
+                android:fontFamily="@font/kalpurush"
+                android:layout_marginLeft="20dp"
+                android:textSize="16sp"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/bg_wt">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:weightSum="7">
+                <LinearLayout
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:background="@drawable/bg_wt"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="র"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/kalpurush"
+                        android:textColor="@color/white"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:background="@drawable/bg_wt"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="সো"
+                        android:gravity="center"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/kalpurush"
+                        android:textColor="@color/white"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:background="@drawable/bg_wt"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ম"
+                        android:gravity="center"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/kalpurush"
+                        android:textColor="@color/white"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:background="@drawable/bg_wt"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="বু"
+                        android:textSize="16sp"
+                        android:gravity="center"
+                        android:fontFamily="@font/kalpurush"
+                        android:textColor="@color/white"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:background="@drawable/bg_wt"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="বৃ"
+                        android:gravity="center"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/kalpurush"
+                        android:textColor="@color/white"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:background="@drawable/bg_wt"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="শু"
+                        android:textSize="16sp"
+                        android:gravity="center"
+                        android:fontFamily="@font/kalpurush"
+                        android:textColor="@color/white"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:background="@drawable/bg_wt"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="শ"
+                        android:gravity="center"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/kalpurush"
+                        android:textColor="@color/white"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/home_recyclerview"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/home_current_bangla_date"
+                android:fontFamily="@font/kalpurush"
+                android:textSize="20sp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/home_current_english_bangla_date"
+                android:fontFamily="@font/kalpurush"
+                android:textSize="20sp"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="8dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        app:cardBackgroundColor="@color/white"
+        android:layout_marginBottom="40dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp">
+                    <ImageButton
+                        android:layout_width="70dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/main_todays_click"
+                        android:src="@drawable/ic_today_icon"
+                        android:background="@drawable/btn_gradient_color"
+                        android:scaleType="fitCenter"
+                        android:padding="10dp"
+                        app:tint="@color/white" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="আজ"
+                        android:layout_marginTop="5dp"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/kalpurush"
+                        android:textColor="@color/color_blue"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp">
+                    <ImageButton
+                        android:layout_width="70dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/main_calender_click"
+                        android:src="@drawable/ic_calender_icon"
+                        android:background="@drawable/btn_gradient_color"
+                        android:scaleType="fitCenter"
+                        android:padding="10dp"
+                        app:tint="@color/white" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ক্যালেন্ডার"
+                        android:layout_marginTop="5dp"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/kalpurush"
+                        android:textColor="@color/color_blue"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp">
+                    <ImageButton
+                        android:layout_width="70dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/main_din_tarikh_click"
+                        android:src="@drawable/ic_din_tarikh_icon"
+                        android:background="@drawable/btn_gradient_color"
+                        android:scaleType="fitCenter"
+                        android:padding="10dp"
+                        app:tint="@color/white" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="দিন তারিখ"
+                        android:layout_marginTop="5dp"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/kalpurush"
+                        android:textColor="@color/color_blue"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp">
+                    <ImageButton
+                        android:layout_width="70dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/main_settings_click"
+                        android:src="@drawable/ic_settings"
+                        android:background="@drawable/btn_gradient_color"
+                        android:scaleType="fitCenter"
+                        android:padding="10dp"
+                        app:tint="@color/white" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="সেটিংস"
+                        android:layout_marginTop="5dp"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/kalpurush"
+                        android:textColor="@color/color_blue"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp">
+                    <ImageButton
+                        android:layout_width="70dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/main_others_click"
+                        android:src="@drawable/ic_options"
+                        android:background="@drawable/btn_gradient_color"
+                        android:scaleType="fitCenter"
+                        android:padding="10dp"
+                        app:tint="@color/white" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="অন্যান্য"
+                        android:layout_marginTop="5dp"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/kalpurush"
+                        android:textColor="@color/color_blue"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp">
+                    <ImageButton
+                        android:layout_width="70dp"
+                        android:layout_height="60dp"
+                        android:src="@drawable/ic_share"
+                        android:id="@+id/main_share_click"
+                        android:background="@drawable/btn_gradient_color"
+                        android:scaleType="fitCenter"
+                        android:padding="10dp"
+                        app:tint="@color/white" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="শেয়ার"
+                        android:layout_marginTop="5dp"
+                        android:textSize="16sp"
+                        android:fontFamily="@font/kalpurush"
+                        android:textColor="@color/color_blue"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

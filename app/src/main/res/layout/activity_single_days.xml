@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SingleDaysActivity"
+    android:background="@color/color1"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:gravity="center_vertical"
+        android:background="@color/color_blue">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_back"
+                app:tint="@color/white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/singleDaysBangleDate"
+                android:fontFamily="@font/kalpurush"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingBottom="20dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="5dp"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="তারিখ"
+                        android:textColor="@color/color_blue"
+                        android:fontFamily="@font/kalpurush"
+                        android:textStyle="bold"
+                        android:textSize="25sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/singleDaysEngBanDate"
+                        android:textColor="@color/color5"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/singleDaysSpecial"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="5dp"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="তিথি"
+                        android:textColor="@color/color_blue"
+                        android:fontFamily="@font/kalpurush"
+                        android:textStyle="bold"
+                        android:textSize="25sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="শুক্ল ত্রয়োদশী"
+                        android:textStyle="bold"
+                        android:textColor="@color/color5"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="18sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="শুক্ল ত্রয়োদশী ২ জুন শুক্রবার ১১:০২ (11:02AM) পর্যন্ত এবং শুক্ল চতুর্দশী শুরু।"
+                        android:textColor="@color/color5"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="16sp"
+                        android:layout_marginTop="5dp"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="5dp"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="নক্ষত্র"
+                        android:textColor="@color/color_blue"
+                        android:fontFamily="@font/kalpurush"
+                        android:textStyle="bold"
+                        android:textSize="25sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="স্বাতী নক্ষত্র"
+                        android:textStyle="bold"
+                        android:textColor="@color/color5"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="18sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="স্বাতী নক্ষত্র ২ জুন শুক্রবার ০৫:২৬ (05:26AM) পর্যন্ত এবং বিশাখা নক্ষত্র শুরু।"
+                        android:textColor="@color/color5"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="16sp"
+                        android:layout_marginTop="5dp"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="5dp"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="যোগ"
+                        android:textColor="@color/color_blue"
+                        android:fontFamily="@font/kalpurush"
+                        android:textStyle="bold"
+                        android:textSize="25sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="পরিষযোগ"
+                        android:textStyle="bold"
+                        android:textColor="@color/color5"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="18sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="পরিষযোগ ২ জুন শুক্রবার ১৬:২৯ (04:29PM) পর্যন্ত এবং শিবযোগ শুরু।"
+                        android:textColor="@color/color5"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="16sp"
+                        android:layout_marginTop="5dp"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="5dp"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="করণ"
+                        android:textColor="@color/color_blue"
+                        android:fontFamily="@font/kalpurush"
+                        android:textStyle="bold"
+                        android:textSize="25sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="তৈতিলকরণ"
+                        android:textStyle="bold"
+                        android:textColor="@color/color5"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="18sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="তৈতিলকরণ ২ জুন শুক্রবার ১১:০২ (11:02AM) পর্যন্ত, পরে গরকরণ ২ জুন শুক্রবার ২২:৩৯ (10:39PM) পর্যন্ত এবং বণিজকরণ শুরু।"
+                        android:textColor="@color/color5"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="16sp"
+                        android:layout_marginTop="5dp"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="5dp"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="জন্মরাশি"
+                        android:textColor="@color/color_blue"
+                        android:fontFamily="@font/kalpurush"
+                        android:textStyle="bold"
+                        android:textSize="25sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="তুলারাশি"
+                        android:textStyle="bold"
+                        android:textColor="@color/color5"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="18sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="তুলারাশি ২ জুন, শুক্রবার ২৩:৩০ ( 11:30PM) পর্যন্ত। পরে বৃশ্চিকরাশি।"
+                        android:textColor="@color/color5"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="16sp"
+                        android:layout_marginTop="5dp"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="5dp"
+                android:layout_margin="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="বিবিধ"
+                        android:textColor="@color/color_blue"
+                        android:fontFamily="@font/kalpurush"
+                        android:textStyle="bold"
+                        android:textSize="25sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="তুলারাশি"
+                        android:textStyle="bold"
+                        android:textColor="@color/color5"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="18sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="মৃতে দোষনাস্তি, ০৫:২৬ (05:26AM) থেকে দ্বিপাদদোষ। যোগিনী - দক্ষিণে ১১:০২ (11:02AM) পর্যন্ত। পরে পশ্চিমে।"
+                        android:textColor="@color/color5"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/kalpurush"
+                        android:textSize="16sp"
+                        android:layout_marginTop="5dp"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
